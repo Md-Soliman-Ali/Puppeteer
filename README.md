@@ -13,7 +13,7 @@ Page Interaction Using Puppeteer
 - page.waitForNavigation()  // wait for load a website
 - page.waitForTimeout(time_in_millisecond)  // wait for manual time
 - page.click("selector")    // click on an element
-- page.type (selector, "Some Text")
+- page.type (selector, "some text")
 - await page.select('#selector', 'value')    // select dropdown
 - await page.select('#selector', 'val1', 'val2', 'val3')    // select multiple values from dropdown
 - await page.keyboard.press("keyboard_event")

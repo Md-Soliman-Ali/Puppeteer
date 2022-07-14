@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# Puppeteer
-- Puppeteer is a Node library which provides a high-level API to control headless Chromium over the DevTools Protocol. 
-
-=======
->>>>>>> 3f9171547289b99f99a591da334cb1d61c37f004
 Some VS Code User Shortcut
 --------------------------
 - Shift+Alt+F (To indent user code)

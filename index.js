@@ -17,7 +17,7 @@ before(async () => {
     page = await browser.newPage();
 })
 
-/* describe("Visit Google Site", async () => {
+describe.skip("Visit Google Site", async () => {
     it("Visit Google Site", async () => {
         await page.goto('https://google.com');
         expect(await page.title()).equals("Google");
@@ -25,7 +25,7 @@ before(async () => {
         await page.type("[name=q]", "Hello");
         await page.keyboard.press("Enter");
     })
-}) */
+})
 
 describe("Visit Ecommerce Site", async () => {
     it("Visit Ecommerce Site", async () => {
@@ -61,5 +61,5 @@ describe("Visit Ecommerce Site", async () => {
 })
 
 after(async () => {
-    // await browser.close();
+    await browser.close();
 })

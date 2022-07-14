@@ -1,5 +1,5 @@
 # Puppeteer
-- Puppeteer is a Node library which provides a high-level API to control headless Chromium over the DevTools Protocol.
+- Puppeteer is a Node library which provides a high-level API to control headless Chromium over the DevTools Protocol. 
 
 Some VS Code User Shortcut
 --------------------------
